@@ -1,8 +1,5 @@
 # Deep Image Colorization: ResNet-U-Net GAN with Perceptual Loss and Retrieval Hints
-
-**Course:** COMP3057 Introduction to Artificial Intelligence and Machine Learning  
-**Author:** Constantino Harry Alexander (25206605)  
-**Date:** December 16, 2025  
+---
 
 <div align="center">
 	<img src="Images/ProjectHeader.png" alt="Project Header: Grayscale Input vs. Colorized Output" style="max-width: 80%; height: auto;" />
