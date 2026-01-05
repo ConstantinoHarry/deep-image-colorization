@@ -1,3 +1,6 @@
 *.ipynb filter=nbstripout
 *.zpln filter=nbstripout
 *.ipynb diff=ipynb
+
+# Exempt a preserved-output notebook from stripping
+Image_Colorization_ResNet_UNet_GAN_with_outputs.ipynb -filter
