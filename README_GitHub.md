@@ -47,6 +47,12 @@ pip install torch torchvision torchaudio scikit-image matplotlib tqdm lpips fais
 - Qualitative galleries and comparisons are included in the notebook
 - Strong semantic colorization on common scenes; some ambiguity on rare objects
 
+## Notebook Viewing
+- Clean notebook (no heavy outputs): [Image_Colorization_ResNet_UNet_GAN.ipynb](Image_Colorization_ResNet_UNet_GAN.ipynb)
+- Preserved outputs snapshot (for GitHub viewing): [Image_Colorization_ResNet_UNet_GAN_with_outputs.ipynb](Image_Colorization_ResNet_UNet_GAN_with_outputs.ipynb)
+
+> Note: The repository uses `nbstripout` to keep notebooks lightweight by removing cell outputs on commit. The preserved snapshot is exempted and intended for readers who want to see evaluation results and sample galleries directly on GitHub.
+
 ## Single-Image Inference (Notebook Snippet)
 ```python
 # Given: generator loaded on device; L in [-1,1] as (1,1,256,256)
